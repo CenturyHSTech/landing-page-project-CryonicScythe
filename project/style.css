@@ -1,0 +1,84 @@
+body {
+    font-family: "Josefin Sans", serif;
+    margin: 0;
+    color: #203E55;
+    background-color: #add8e6;
+}
+h1, h2, h3 {
+    font-family: "Crimson Pro", serif;
+    color: #D9CBBA;
+}
+nav {
+    background-color: #2b5373;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    border-bottom: 2px solid #203E55;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em 0.5em;
+    border: 1px solid #EBF0F2;
+    color: #BF8D7A;
+    background-color: #0D0D0D;
+}
+nav a:hover {
+    color: #0D0D0D;
+    background-color: #BF8D7A;
+}
+header {
+    background-image: url("images/penguin-sliding-small.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 2em;
+}
+header div {
+    color: #F8F5F1;
+    background-color: #2b5373;
+    padding: 1em;
+    max-width: 98%;
+    width: 26em;
+    border-radius: 10px 40px 30px;
+}
+figure {
+    margin: 1em;
+    border: #D97904;
+    border-width: 4px;
+    border-style: solid;
+    padding: .5em;
+    width: 355px;
+    color: #9BABBF;
+    background-color: #0D0D0D;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px 20px 15px;
+    transition: transform .2s;
+}
+figure:hover {
+    transform: scale(1.05);
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+figure img{
+    width: 100%;
+}
+a:link {
+    color: gold;
+}
+a:visited {
+    color: darkorange;
+}
+a:hover {
+    color: chocolate;
+}
+footer {
+    color: #203E55;
+}
